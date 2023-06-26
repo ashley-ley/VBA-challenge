@@ -94,7 +94,7 @@ Range("Q1").Value = "Value"
                 
             ' Finds the first row of new stock
             ElseIf previousTicker <> Ticker Then
-            
+             
                 ' This will give us the firstOpening
                 firstOpening = ws.Cells(i, 3).Value
             
